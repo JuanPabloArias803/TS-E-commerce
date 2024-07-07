@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+select {
+  background: #181e4b;
+  border-radius: 1000px;
+  border-style: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  appearance: none;
+}

@@ -1,0 +1,50 @@
+.card {
+  padding: 20px;
+  background-image: radial-gradient(
+    circle 450px at 100% -10%,
+    var(--secondary-color),
+    var(--main-color)
+  );
+  width: 300px;
+  height: fit-content;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: solid black 2.5px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.003);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 15px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-img > img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-description > h3 {
+  text-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+}
+
+.card-description > strong {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}

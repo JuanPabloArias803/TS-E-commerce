@@ -1,3 +1,4 @@
+import { coin } from '../../helpers/coin';
 import { NavigateTo } from '../../Router';
 import './home.css';
 
@@ -6,7 +7,10 @@ export function Home() {
   $root.innerHTML = `
         <div class="home-container">
             <img class="home-logo" src="/public/logo.webp">
-            <h1>Tienda Riwí🪙</h1>
+            <div class="home-title">
+              <h1>Tienda Riwí</h1>
+              ${coin}
+            </div>
             <button class="home-btn">Bienvenido</button>
         </div>
     `;

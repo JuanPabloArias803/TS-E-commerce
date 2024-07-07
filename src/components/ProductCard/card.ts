@@ -1,3 +1,4 @@
+import { coin } from '../../helpers/coin';
 import './card.css';
 
 export function Card(
@@ -17,7 +18,7 @@ export function Card(
             </header>
             <div class="card-description">
                 <h3>${title.substring(0, 22)}...</h3>
-                <strong>${price} Riwí🪙</strong>
+                <strong>${price} Riwí${coin}</strong>
                 <p>Calificación: ${rate}⭐ (${count} reseñas)</p>
             </div>
         </article>

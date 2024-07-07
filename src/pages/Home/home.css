@@ -11,12 +11,23 @@
   background-size: cover;
 }
 
-.home-container > h1 {
+.home-title{
+  display: flex;
+  padding: 10px;
+}
+
+.home-container >.home-title> h1 {
   color: var(--main-color);
 }
 
 .home-logo {
   height: 100px;
+}
+
+.home-title>svg{
+  width: 3rem;
+  height: fit-content;
+  align-self: center;
 }
 
 .home-btn {
@@ -34,4 +45,19 @@
 
 .home-btn:hover {
   box-shadow: var(--main-color) 0 1px 30px;
+}
+
+@media only screen and (max-width: 450px) {
+  .home-logo {
+    height: 70px;
+  }
+  
+  .home-container >.home-title> h1 {
+    font-size: 2rem;
+  }
+
+  .home-title>svg{
+    width: 2rem;
+  }
+
 }

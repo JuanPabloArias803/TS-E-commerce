@@ -4,6 +4,7 @@ import { Product, Category, Rating } from '../../helpers/interfaces';
 import { Card } from '../../components/ProductCard/card';
 import { CategoryFilter } from '../../components/CategoryFilter/category-filter';
 import { fetchProducts } from '../../helpers/fetch';
+import { coin } from '../../helpers/coin';
 
 export async function Board() {
   let products: Product[] = await fetchProducts();
@@ -33,7 +34,7 @@ export async function Board() {
   $root!.innerHTML = `
         <div class="board-container">
             <img class="home-logo" src="/public/logo.webp">    
-            <h2 class="board-title">Canjea tus Riwí🪙 por premios!</h2>
+            <p class="board-title">Canjea tus Riwí${coin} por premios!</p>
             ${CategoryFilter()}
             <div class="board-products">
                 ${child}

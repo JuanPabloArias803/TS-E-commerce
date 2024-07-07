@@ -1,7 +1,7 @@
 .card {
   padding: 20px;
   background-image: radial-gradient(
-    circle 450px at 100% -10%,
+    circle 400px at 100% -10%,
     var(--secondary-color),
     var(--main-color)
   );
@@ -47,4 +47,8 @@
 .card-description > strong {
   color: var(--secondary-color);
   font-size: 1.3rem;
+}
+
+.card-description svg{
+  width: 1rem;
 }

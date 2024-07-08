@@ -5,6 +5,7 @@ import { Card } from '../../components/ProductCard/card';
 import { CategoryFilter } from '../../components/CategoryFilter/category-filter';
 import { fetchProducts } from '../../helpers/fetch';
 import { coin } from '../../helpers/coin';
+import "/public/logo.png";
 
 export async function Board() {
   let products: Product[] = await fetchProducts();

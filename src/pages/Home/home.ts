@@ -1,6 +1,7 @@
 import { coin } from '../../helpers/coin';
 import { NavigateTo } from '../../Router';
 import './home.css';
+import "/public/logo.png";
 
 export function Home() {
   const $root = document.querySelector('#root') as HTMLDivElement;

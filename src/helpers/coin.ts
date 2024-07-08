@@ -1,4 +1,4 @@
-export const coin=`<svg class="coin" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" viewBox="0 0 256 256" width="256" height="256">
+export const coin = `<svg class="coin" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" viewBox="0 0 256 256" width="256" height="256">
 	<rect fill="rgba(0,0,0,255)" x="80" y="0" width="16" height="16"/>
 	<rect fill="rgba(0,0,0,255)" x="96" y="0" width="16" height="16"/>
 	<rect fill="rgba(0,0,0,255)" x="112" y="0" width="16" height="16"/>

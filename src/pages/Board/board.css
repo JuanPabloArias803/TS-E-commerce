@@ -13,12 +13,12 @@
   font-weight: bold;
 }
 
-.board-container .coin{
+.board-container .coin {
   width: 1.5rem;
   height: fit-content;
 }
 
-.board-container .home-logo{
+.board-container .home-logo {
   height: 70px;
 }
 

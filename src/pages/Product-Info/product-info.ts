@@ -26,10 +26,10 @@ export async function ProductInfo() {
         </div>
       </div>
     `;
-    const $buyBtn=document.querySelector(".home-btn") as HTMLButtonElement;
-    $buyBtn.addEventListener("click",()=>{
-      alert("Gracias por tu compra!");
-      NavigateTo("/products");
+    const $buyBtn = document.querySelector('.home-btn') as HTMLButtonElement;
+    $buyBtn.addEventListener('click', () => {
+      alert('Gracias por tu compra!');
+      NavigateTo('/products');
     });
   } catch (error) {
     NavigateTo('/not-found');

@@ -33,7 +33,7 @@ export async function Board() {
   const $root = document.getElementById('root') as HTMLDivElement;
   $root!.innerHTML = `
         <div class="board-container">
-            <img class="home-logo" src="/public/logo.webp">    
+            <img class="home-logo" src="/public/logo.png">
             <p class="board-title">Canjea tus Riwí${coin} por premios!</p>
             ${CategoryFilter()}
             <div class="board-products">

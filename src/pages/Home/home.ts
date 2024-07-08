@@ -6,7 +6,7 @@ export function Home() {
   const $root = document.querySelector('#root') as HTMLDivElement;
   $root.innerHTML = `
         <div class="home-container">
-            <img class="home-logo" src="/public/logo.webp">
+            <img class="home-logo" src="/public/logo.png">
             <div class="home-title">
               <h1>Tienda Riwí</h1>
               ${coin}

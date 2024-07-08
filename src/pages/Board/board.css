@@ -13,14 +13,13 @@
   font-weight: bold;
 }
 
-.board-container svg{
+.board-container .coin{
   width: 1.5rem;
   height: fit-content;
 }
 
-.board-container img{
-  width: 250px;
-  height: auto;
+.board-container .home-logo{
+  height: 70px;
 }
 
 .board-products {

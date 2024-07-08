@@ -1,13 +1,12 @@
 import { coin } from '../../helpers/coin';
 import { NavigateTo } from '../../Router';
 import './home.css';
-import "/public/logo.png";
 
 export function Home() {
   const $root = document.querySelector('#root') as HTMLDivElement;
   $root.innerHTML = `
         <div class="home-container">
-            <img class="home-logo" src="/public/logo.png">
+            <img class="home-logo">
             <div class="home-title">
               <h1>Tienda Riwí</h1>
               ${coin}

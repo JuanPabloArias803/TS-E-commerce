@@ -21,6 +21,7 @@
 
 .home-logo {
   height: 100px;
+  content:url(/public/logo.png);
 }
 
 .home-title>svg{

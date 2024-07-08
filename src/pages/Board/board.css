@@ -3,18 +3,24 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  padding: 20px;
 }
 
 .board-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
 .board-container svg{
-  width: 1.8rem;
+  width: 1.5rem;
   height: fit-content;
+}
+
+.board-container img{
+  width: 250px;
+  height: auto;
 }
 
 .board-products {

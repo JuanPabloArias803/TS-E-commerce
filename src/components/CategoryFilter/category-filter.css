@@ -1,11 +1,11 @@
-form {
+.filter-container form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
 }
 
-select {
+.filter-container select {
   background: #181e4b;
   border-radius: 1000px;
   border-style: none;

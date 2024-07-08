@@ -3,7 +3,7 @@ import { Category } from '../../helpers/interfaces';
 
 export function CategoryFilter() {
   return `
-        <div class="">
+        <div class="filter-container">
             <form>
                 <label>Filtrar por:</label>    
                 <select class="category-filter">
